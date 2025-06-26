@@ -1,4 +1,3 @@
-<!-- src/routes/+page.svelte -->
 <script>
     import TimeDisplay from '$lib/components/TimeDisplay.svelte';
     import MultipleTimeZones from '$lib/components/MultipleTimeZones.svelte';
