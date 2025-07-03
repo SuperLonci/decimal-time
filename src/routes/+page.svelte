@@ -26,11 +26,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
         font-family: 'Helvetica Neue', Arial, sans-serif;
         background-color: #f0f4f8;
         color: #333;
-        padding: 1rem;
+        padding: 1rem 0.5rem 2rem 0.5rem;
+        box-sizing: border-box;
     }
 
     header {
@@ -38,11 +39,12 @@
         margin-bottom: 2rem;
         background-color: #007BFF;
         color: white;
-        padding: 1.5rem;
+        padding: 2rem 1rem 1.5rem 1rem;
         border-radius: 10px;
         width: 100%;
         max-width: 600px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
     }
 
     h1 {
@@ -86,5 +88,11 @@
     .time-card p {
         font-size: 2rem;
         margin: 0;
+    }
+
+    @media (max-width: 600px) {
+        main {
+            justify-content: flex-start;
+        }
     }
 </style>
